@@ -1,0 +1,65 @@
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	font-family: Arial;
+	background: url("room of candles.jpg") center center fixed;
+	background-size: cover;
+	color:#faee80;
+}
+.row h1{
+	text-transform:uppercase;
+	text-shadow:3px 2px 8px #0d1527, 0px 1px  #0d1527, 1px 0px #0d1527 , -1px 0px 8px #0d1527;
+}
+.zbtn{
+	text-transform: capitalize;
+	background:radial-gradient(rgba(255,137,92,1),rgba(255,137,92,0.4),rgba(255,137,92,0.8),rgba(43,25,23,0.6),rgba(113,109,143,0.3),rgba(14,23,42,1),rgba(14,23,42,0));
+	border:none;
+	box-shadow:0 0 10px rgba(255,137,92,1);
+}
+.zbtn:hover{
+	background:linear-gradient(#0e172a,#48302c,#e1895c,transparent);
+	border:1px solid rgba(255,137,92,1) ;	
+}
+.zbtn:focus{
+		background:linear-gradient(#0e172a,#48302c,#e1895c,transparent);
+	border:1px solid rgba(255,137,92,1) ;
+	box-shadow: 0 0 10px rgba(255,137,92,1);	
+}
+hr{
+	background-color: #0e1327;
+	opacity: 1;
+	width:10%;
+	border:1px solid #0e1327;
+	margin:1rem auto;
+	box-shadow:0 0 10px rgba(255,137,92,1);
+
+}
+.buffer{
+	height: 350px;
+}
+.col-12:last-child{
+	margin-bottom:5rem;
+}
+/*.container{
+	height:100%;
+	text-align: center;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	justify-content: center;
+	height:100%;
+}
+hr{
+	background-color: #ef871d;
+	opacity: 1;
+	width:10%;
+	border:10px solid #111;
+}
+
+.row .col:first-child{
+	align-self: center;
+}
